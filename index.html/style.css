@@ -1,0 +1,166 @@
+*{
+ padding:0;
+ margin:0;
+}
+
+body{
+    background-color: rgb(119, 80, 156);
+}
+
+header{background-color: rgb(249, 252, 65);
+height:80 ;
+width:100 ;
+position:fixed ;
+}
+
+h1{color: rgb(164, 214, 255);
+position: absolute;
+left: 120px;
+top: 0;
+  line-height: 80px;
+  height: 80px; 
+
+background-image: url("image."); 
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+width:210px;
+text-indent:-9999px;
+}
+
+header ul{
+    position:absolute;
+    right:5vw;
+    top:0px;
+    line-height 80;
+}
+
+header li{
+    display:inline;
+    margin: right 20px;
+}
+
+header a {
+    color: rgb(119, 80, 156)
+    text-decoration:none;
+}
+
+header a:hover{
+    text-decoration:royalblue;
+}
+
+
+.slogan{display:flex}
+
+.slogan{border-image-width: ;}
+
+.product{
+    display:flex
+    border-image-width: ;
+:backdrop:color
+flex:direction
+align-items:center
+justify-content-center;
+}
+
+.info h{font-size: 40;
+    margin-bottom: 30;
+}
+
+.info p{font-size: 40;
+    margin-bottom: 30;
+
+}
+
+.product{display:flex;
+background-color: antiquewhite;
+justify-content: space-between;
+align-items:center;
+padding:50px
+}
+
+.product div{
+    width: 300px;
+    text-align:center;
+}
+
+.product img{
+    width:100%;
+    border-radius: 10px;
+}
+
+.product h3{
+    font-size: 20px;
+    margin:20px 0;
+}
+
+.product p{
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+footer{
+    background-color: aquamarine;
+    color:aquamarine
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:14px;
+
+
+}
+
+.menu {display: none;}
+
+@media screen and (max-width:768px){
+
+    header ul{desplay:none;}
+
+
+ header h1{
+    left:50%
+    transform:
+ }
+
+ .news h2{
+
+    font-size: 40px;
+ }
+
+ .menu{
+    display: block;
+    background-color: brown;
+    color: ;
+    font-size: ;
+    position: ;
+    top:15px;
+    border:none;
+    cursor:pointer
+}
+
+ .shop{
+    flex-direction: column;
+ }
+
+ .shop img{
+    width:100%
+ }
+
+ .info h2{
+    width: 100%
+    padding:40px 0;
+ }
+ .info h2{
+     font-size:30px
+ }
+
+.product{
+    flex-direction: column;
+    padding: 60px 0;
+}
+
+.product div{
+    margin-bottom: 30px;
+}
+
+}
